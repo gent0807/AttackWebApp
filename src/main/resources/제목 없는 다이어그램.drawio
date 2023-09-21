@@ -1,14 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T07:19:52.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="w4tnZK3PXg7MCVlFo0e4" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T07:27:54.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="k2OwI3IlJ48k2SPnhDTU" version="21.8.0" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ddc4ll2gef4KjZrPnP3Z-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="650" y="180" width="10" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Ddc4ll2gef4KjZrPnP3Z-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="420" y="180" width="10" height="550" as="geometry" />
+        </mxCell>
         <mxCell id="Ddc4ll2gef4KjZrPnP3Z-3" value="도서관 회원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="80" width="30" height="60" as="geometry" />
+          <mxGeometry x="230" y="70" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ddc4ll2gef4KjZrPnP3Z-4" value="도서관 직원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="80" width="30" height="60" as="geometry" />
+          <mxGeometry x="410" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ddc4ll2gef4KjZrPnP3Z-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="10" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Ddc4ll2gef4KjZrPnP3Z-17" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="210" width="1070" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Ddc4ll2gef4KjZrPnP3Z-20" value="Object" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ddc4ll2gef4KjZrPnP3Z-31" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="Ddc4ll2gef4KjZrPnP3Z-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="244.83" y="185" as="sourcePoint" />
+            <mxPoint x="244.83" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="244.83" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ddc4ll2gef4KjZrPnP3Z-32" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="180" as="sourcePoint" />
+            <mxPoint x="424.83000000000004" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="424.83000000000004" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ddc4ll2gef4KjZrPnP3Z-33" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ddc4ll2gef4KjZrPnP3Z-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="655.0000000000001" y="180" as="sourcePoint" />
+            <mxPoint x="654.83" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="654.83" y="170" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
